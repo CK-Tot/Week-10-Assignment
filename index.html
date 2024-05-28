@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact List</title>
+	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Contacts</h2>
+		<table class="table" id="myTable">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Number</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>First Last</td>
+					<td>123-456-78910</td>
+				</tr>
+			</tbody>
+		</table>
+		<h2>Add new contact</h2>
+		<form id="contact-form">
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control" id="name">
+			</div>
+			<div class="form-group">
+				<label for="number">Number:</label>
+				<input type="text" class="form-control" id="number">
+			</div>
+			<br>
+			<button type="submit"  class="btn btn-primary">Create</button>
+		</form>
+	</div>
+
+
+	
+	<script src="app.js"></script>
+	<script src="/node_modules/jquery/dist/jquery.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
